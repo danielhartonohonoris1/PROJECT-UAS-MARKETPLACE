@@ -45,6 +45,7 @@ class _MyAppState extends State<MyApp> {
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
               BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Setting')
+              BottomNavigationBarItem(icon: Icon(Icons.Account), label: 'Account')
             ]),
       ),
     );
